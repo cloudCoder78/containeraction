@@ -14,7 +14,7 @@ jobs:
         myInputs: 'Chad'
     - name: output the memory
       run: |
-        echo ${{ steps.hello.outputs.memory }}
+        echo ${{ steps.hello.outputs }}
         echo "Total Memory output"
     
     
